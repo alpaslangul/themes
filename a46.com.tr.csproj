@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9EAF4F42-1890-4138-9D3C-05E34559D734}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>a46Projects</RootNamespace>
+    <AssemblyName>a46Projects</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blog-fullwidth.html" />
+    <Content Include="blog-left-sidebar.html" />
+    <Content Include="blog-right-sidebar.html" />
+    <Content Include="blog-single-fullwidth.html" />
+    <Content Include="gallery-albums.html" />
+    <Content Include="gallery-grid.html" />
+    <Content Include="gallery-masonry.html" />
+    <Content Include="gallery-slideshow.html" />
+    <Content Include="images\animated-overlay.gif" />
+    <Content Include="images\arrow-left.png" />
+    <Content Include="images\arrow-right.png" />
+    <Content Include="images\arrow_left.png" />
+    <Content Include="images\arrow_right.png" />
+    <Content Include="images\blank.gif" />
+    <Content Include="images\fancybox_buttons.png" />
+    <Content Include="images\fancybox_loading%402x.gif" />
+    <Content Include="images\fancybox_loading.gif" />
+    <Content Include="images\fancybox_overlay.png" />
+    <Content Include="images\fancybox_sprite%402x.png" />
+    <Content Include="images\fancybox_sprite.png" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\filter.png" />
+    <Content Include="images\full_sizes\arrow-left.png" />
+    <Content Include="images\full_sizes\arrow-right.png" />
+    <Content Include="images\full_sizes\cebit.jpg" />
+    <Content Include="images\full_sizes\cocuk.jpg" />
+    <Content Include="images\full_sizes\davet.jpg" />
+    <Content Include="images\full_sizes\elite.JPG" />
+    <Content Include="images\full_sizes\elite2.jpg" />
+    <Content Include="images\full_sizes\ford.jpg" />
+    <Content Include="images\full_sizes\gq.jpg" />
+    <Content Include="images\full_sizes\handeyener.jpg" />
+    <Content Include="images\full_sizes\img5.jpg" />
+    <Content Include="images\full_sizes\fashion3.png" />
+    <Content Include="images\full_sizes\fashion1.png" />
+    <Content Include="images\full_sizes\img1.jpg" />
+    <Content Include="images\full_sizes\img4.jpg" />
+    <Content Include="images\full_sizes\img9.jpg" />
+    <Content Include="images\full_sizes\kurumsal.jpg" />
+    <Content Include="images\full_sizes\kv.JPG" />
+    <Content Include="images\full_sizes\madman.JPG" />
+    <Content Include="images\full_sizes\nisantasi.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam1.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam10.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam11.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam12.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam2.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam3.JPG" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam4.JPG" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam5.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam6.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam7.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam8.jpg" />
+    <Content Include="images\full_sizes\tuvanam\tuvanam9.jpg" />
+    <Content Include="images\Gallery\cebit.jpg" />
+    <Content Include="images\Gallery\cocuk.jpg" />
+    <Content Include="images\Gallery\davet.jpg" />
+    <Content Include="images\Gallery\elite.JPG" />
+    <Content Include="images\Gallery\elite2.jpg" />
+    <Content Include="images\Gallery\fashion1.png" />
+    <Content Include="images\Gallery\fashion10.png" />
+    <Content Include="images\Gallery\fashion11.png" />
+    <Content Include="images\Gallery\fashion12.png" />
+    <Content Include="images\Gallery\fashion13.png" />
+    <Content Include="images\Gallery\fashion2.png" />
+    <Content Include="images\Gallery\fashion3.png" />
+    <Content Include="images\Gallery\fashion4.png" />
+    <Content Include="images\Gallery\fashion5.png" />
+    <Content Include="images\Gallery\fashion6.png" />
+    <Content Include="images\Gallery\fashion7.png" />
+    <Content Include="images\Gallery\fashion8.png" />
+    <Content Include="images\Gallery\fashion9.png" />
+    <Content Include="images\Gallery\filter.png" />
+    <Content Include="images\Gallery\ford.jpg" />
+    <Content Include="images\Gallery\gq.jpg" />
+    <Content Include="images\Gallery\handeyener.jpg" />
+    <Content Include="images\Gallery\kurumsal.jpg" />
+    <Content Include="images\Gallery\kv.JPG" />
+    <Content Include="images\Gallery\logo-mini.png" />
+    <Content Include="images\Gallery\logo-mobile.png" />
+    <Content Include="images\Gallery\logo.png" />
+    <Content Include="images\Gallery\madman.JPG" />
+    <Content Include="images\Gallery\nisantasi.jpg" />
+    <Content Include="images\Gallery\portrait1.png" />
+    <Content Include="images\Gallery\portrait10.png" />
+    <Content Include="images\Gallery\portrait11.png" />
+    <Content Include="images\Gallery\portrait12.png" />
+    <Content Include="images\Gallery\portrait2.png" />
+    <Content Include="images\Gallery\portrait3.png" />
+    <Content Include="images\Gallery\portrait4.png" />
+    <Content Include="images\Gallery\portrait5.png" />
+    <Content Include="images\Gallery\portrait6.png" />
+    <Content Include="images\Gallery\portrait7.png" />
+    <Content Include="images\Gallery\portrait8.png" />
+    <Content Include="images\Gallery\portrait9.png" />
+    <Content Include="images\Gallery\street1.png" />
+    <Content Include="images\Gallery\street10.png" />
+    <Content Include="images\Gallery\street11.png" />
+    <Content Include="images\Gallery\street2.png" />
+    <Content Include="images\Gallery\street3.png" />
+    <Content Include="images\Gallery\street4.png" />
+    <Content Include="images\Gallery\street5.png" />
+    <Content Include="images\Gallery\street6.png" />
+    <Content Include="images\Gallery\street7.png" />
+    <Content Include="images\Gallery\street8.png" />
+    <Content Include="images\Gallery\street9.png" />
+    <Content Include="images\Gallery\tuvanam\tuvanam1.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam10.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam11.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam12.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam2.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam3.JPG" />
+    <Content Include="images\Gallery\tuvanam\tuvanam4.JPG" />
+    <Content Include="images\Gallery\tuvanam\tuvanam5.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam6.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam7.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam8.jpg" />
+    <Content Include="images\Gallery\tuvanam\tuvanam9.jpg" />
+    <Content Include="images\img1.png" />
+    <Content Include="images\img2.png" />
+    <Content Include="images\img3.png" />
+    <Content Include="images\img4.png" />
+    <Content Include="images\logo-mini.png" />
+    <Content Include="images\logo-mobile.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\mCSB_buttons.png" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\quote2.png" />
+    <Content Include="images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="images\ui-icons_222222_256x240.png" />
+    <Content Include="images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="images\ui-icons_454545_256x240.png" />
+    <Content Include="images\ui-icons_888888_256x240.png" />
+    <Content Include="images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="index.html" />
+    <Content Include="page-about.html" />
+    <Content Include="page-contact.html" />
+    <Content Include="page-elements.html" />
+    <Content Include="portfolio-grid.html" />
+    <Content Include="portfolio-masonry.html" />
+    <Content Include="portfolio-single.html" />
+    <Content Include="portfolio-striped.html" />
+    <Content Include="Scripts\appear.js" />
+    <Content Include="Scripts\easing.1.3.js" />
+    <Content Include="Scripts\fitvids.js" />
+    <Content Include="Scripts\flexslider.min.js" />
+    <Content Include="Scripts\gmap.min.js" />
+    <Content Include="Scripts\imagesloaded.pkgd.min.js" />
+    <Content Include="Scripts\isotope.min.js" />
+    <Content Include="Scripts\jflickrfeed.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-ui.min.js" />
+    <Content Include="Scripts\jquery.fancybox-buttons.js" />
+    <Content Include="Scripts\jquery.fancybox-media.js" />
+    <Content Include="Scripts\jquery.fancybox-thumbs.js" />
+    <Content Include="Scripts\jquery.fancybox.pack.js" />
+    <Content Include="Scripts\magnific-popup.min.js" />
+    <Content Include="Scripts\masonry-horizontal.js" />
+    <Content Include="Scripts\mCustomScrollbar.min.js" />
+    <Content Include="Scripts\migrate-1.2.1.min.js" />
+    <Content Include="Scripts\modernizr-respond.js" />
+    <Content Include="Scripts\queryloader2.min.js" />
+    <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\scrollTo-min.js" />
+    <Content Include="Scripts\SmoothScroll.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\animate.min.css" />
+    <Content Include="Styles\entypo\fonts\entypo.svg" />
+    <Content Include="Styles\entypo\style.css" />
+    <Content Include="Styles\flex\style.css" />
+    <Content Include="Styles\font_awesome\font-awesome.css" />
+    <Content Include="Styles\font_awesome\fontawesome-webfont.svg" />
+    <Content Include="Styles\icomoon\font\icomoon.svg" />
+    <Content Include="Styles\icomoon\style.css" />
+    <Content Include="Styles\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="Styles\jquery.fancybox-buttons.css" />
+    <Content Include="Styles\jquery.fancybox-thumbs.css" />
+    <Content Include="Styles\jquery.fancybox.css" />
+    <Content Include="Styles\magnific-popup.css" />
+    <Content Include="Styles\mCustomScrollbar.css" />
+    <Content Include="Styles\reset.css" />
+    <Content Include="Styles\style.css" />
+    <Content Include="videos\intema.mp4" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Styles\entypo\fonts\entypo.eot" />
+    <None Include="Styles\entypo\fonts\entypo.ttf" />
+    <None Include="Styles\entypo\fonts\entypo.woff" />
+    <None Include="Styles\font_awesome\fontawesome-webfont.eot" />
+    <None Include="Styles\font_awesome\fontawesome-webfont.ttf" />
+    <None Include="Styles\font_awesome\fontawesome-webfont.woff" />
+    <None Include="Styles\font_awesome\FontAwesome.otf" />
+    <None Include="Styles\icomoon\font\icomoon.eot" />
+    <None Include="Styles\icomoon\font\icomoon.ttf" />
+    <None Include="Styles\icomoon\font\icomoon.woff" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1619</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

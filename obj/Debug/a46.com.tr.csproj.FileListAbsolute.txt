@@ -1,0 +1,5 @@
+C:\Users\devr01\Documents\web\A46\A46Project\a46Projects\bin\a46Projects.dll
+C:\Users\devr01\Documents\web\A46\A46Project\a46Projects\bin\a46Projects.pdb
+C:\Users\devr01\Documents\web\A46\A46Project\a46Projects\obj\Debug\a46Projects.dll
+C:\Users\devr01\Documents\web\A46\A46Project\a46Projects\obj\Debug\a46Projects.pdb
+C:\Users\devr01\Documents\web\A46\A46Project\a46Projects\obj\Debug\a46.com.tr.csprojResolveAssemblyReference.cache
