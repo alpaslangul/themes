@@ -6,10 +6,10 @@ $(document).ready(function() {
     
 
 	var win_h = $(window).height(),
-		win_w = $(window).width(),
-        videoOverlay = $('.overlay').width();
-        $('#videoOrganization').width(videoOverlay);
-        $('#videoOrganization2').width(videoOverlay);
+		win_w = $(window).width()
+//        videoOverlay = $('.overlay').width();
+//        $('#videoOrganization').width(videoOverlay);
+//        $('#videoOrganization2').width(videoOverlay);
 
       
 
@@ -109,11 +109,11 @@ $(document).ready(function() {
 	//=========== Refresh ===========
 	$(window).resize(function(event) {
         $('header').mCustomScrollbar("update");
-        videoOverlay = $('.overlay').width();
-        win_w = $(window).width(),
+//        videoOverlay = $('.overlay').width();
+//        win_w = $(window).width(),
 
-        $('#videoOrganization').width(videoOverlay);
-        $('#videoOrganization2').width(videoOverlay);
+//        $('#videoOrganization').width(videoOverlay);
+//        $('#videoOrganization2').width(videoOverlay);
 
         
 	});
