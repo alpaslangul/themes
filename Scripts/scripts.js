@@ -3,14 +3,17 @@
 "use strict";
 
 $(document).ready(function() {
-    
 
-	var win_h = $(window).height(),
-		win_w = $(window).width()
+
+    var win_h = $(window).height(),
+        win_w = $(window).width();
+
+    $('curtainLayer').css('height', win_h + 'px');
 //        videoOverlay = $('.overlay').width();
 //        $('#videoOrganization').width(videoOverlay);
 //        $('#videoOrganization2').width(videoOverlay);
 
+	    
       
 
 	$("body").queryLoader2({
@@ -866,7 +869,6 @@ $(document).ready(function() {
 	});
 
 	$(window).resize(function(event) {
-		
 		header_resize();
 		gallery_s_resize();
 		page_resize();
@@ -877,6 +879,22 @@ $(document).ready(function() {
 
 
 });
+    $(document).ready(function() {
 
+        var win_h = $(window).height();
+        $(".curtainLayer").css('height', win_h + 'px');
 
+        header_resize();
+		gallery_s_resize();
+		page_resize();
+		map_init();
+		gallery_m_h_resize();
+		portfolio_m_init();
+
+    });
+
+    $(window).load(function() {
+        $(".curtainLayer").hide();
+    });
 })(jQuery);
+
