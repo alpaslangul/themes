@@ -11,7 +11,10 @@
     <title>A46</title>
     <!-- Begin Meta Tags -->
     <meta name="description" content="A46" />
-    <meta name="keywords" content="A46, Organization, Tuvanam, Butik, Tekstil" />
+    <meta name="keywords" content="A46, Organization, Tuvanam, Butik, Tekstil"/>
+
+    <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>-->
+    <link href='http://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <!-- End Meta Tags -->
     <link rel="icon" href="images/favicon.ico" />
     <!-- Begin Stylesheets -->
@@ -43,12 +46,10 @@
     </head>
     <!-- End Head -->
     <!-- Begin Body -->
-<body class="has-filter" id="mainPage">
-<div class="curtainLayer">
-    <img src="images/loading.gif" width="100" height="100" alt="Alternate Text" />
-</div>
+<body class="has-filter" id="mainPage" >
+
 <!-- Begin Header -->
-<header style="z-index: 9999">
+<header style="z-index: 9999999999">
     <div class="header-container">
 
         <div class="header-inner">
@@ -64,7 +65,7 @@
             <nav>
                 <ul>
 
-                    <li>
+                  <!--  <li>
                         <a href="#">
                             GALERİ
                             <span class="arrow-down icon1-angle-down"></span>
@@ -75,23 +76,22 @@
                             <li><a href="gallery-masonry.html">MASONRY</a></li>
                             <li><a href="gallery-slideshow.html">SLIDESHOW</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                     <li>
-                        <a href="#">
-                            İŞLERİMİZ
-                            <span class="arrow-down icon1-angle-down"></span>
-                        </a>
+                        <li><a href="portfolio-striped.html">İŞLERİMİZ</a></li>
+                        <!--
                         <ul>
                             <li><a href="portfolio-grid.html">GRID</a></li>
                             <li><a href="portfolio-masonry.html">MASONRY</a></li>
                             <li><a href="portfolio-striped.html">STRIPED</a></li>
                             <li><a href="portfolio-single.html">SINGLE</a></li>
-                        </ul>
+                        </ul> 
+                        -->
                     </li>
                     <li>
                         <a href="page-about.html">HAKKIMIZDA</a>
                     </li>
-                    <li>
+                   <!-- <li>
                         <a href="#">
                             BLOG
                             <span class="arrow-down icon1-angle-down"></span>
@@ -102,10 +102,10 @@
                             <li><a href="blog-right-sidebar.html">RIGHT SIDEBAR</a></li>
                             <li><a href="blog-single-fullwidth.html">SINGLE FULLWIDTH</a></li>
                         </ul>
-                    </li>
-                    <li>
+                    </li>-->
+                    <!--<li>
                         <a href="page-elements.html">ELEMENTS</a>
-                    </li>
+                    </li>-->
                     <li>
                         <a href="page-contact.html">İLETİŞİM</a>
                     </li>
@@ -113,9 +113,9 @@
             </nav>
 
             <div class="social-icons clearfix">
-                <a href="https://www.facebook.com/A46organization" class="icon3-facebook"></a>
-                <a href="#" class="icon1-twitter"></a>
-                <a href="#" class="icon3-instagram"></a>
+                <a href="https://www.facebook.com/A46organization" target="_blank" class="icon3-facebook"></a>
+                <a href="https://twitter.com/a46organization" class="icon1-twitter" target="_blank"></a>
+                <a href="https://instagram.com/a46organization_ksa/" class="icon3-instagram" target="_blank"></a>
             </div>
 
             <p class="copyrights">COPYRIGHT © A46 GROUP</p>
@@ -133,7 +133,6 @@
             <a href="#" data-filter="" class="cat-all active">All</a>
             <a href="#" data-filter="cat-fashion">Organization</a>
             <a href="#" data-filter="cat-portraits">Tuvanam</a>
-            <img src="images/a46LogoBig.png" alt="A46 Logo" class="logoBig"/>
         </div>
     </div>
     <a href="#" class="menu-nav"><span></span></a>
@@ -156,7 +155,7 @@
 <div class="container">
 <div class="inner-container">
 <div class="cat-wrapper" id="cat-fashion">
-<div class="header animated" data-animation="fadeIn" data-animation-delay="0">
+<div class="header animated"  data-animation="fadeIn" data-animation-delay="0">
     <div class="overlay">
         <iframe width="400" height="979" id="videoOrganization" src="https://www.youtube.com/embed/kMgcYiNOHZA?rel=0&amp;controls=0&amp;showinfo=0&autoplay=1&loop=1&playlist=kMgcYiNOHZA" frameborder="0" allowfullscreen></iframe>
     </div>
@@ -705,58 +704,53 @@
 </div>
 
 <!--audio player-->
-<div id="componentWrapper">
+   <div id="componentWrapper">
 
-    <div class="music_toggle"><img src='media/data/audio_icons/music.png' width='30' height='30' alt='music_toggle'/>
-    </div>
+              <div class="music_toggle"><img src='media/data/audio_icons/music.png' width='30' height='30' alt='music_toggle'/></div>
+              
+              <!-- audio player -->
+              <div class="audioPlayer">
+            
+                 <div class="playerHolder">
+                     
+                      <div class="player_controls">
 
-    <!-- audio player -->
-    <div class="audioPlayer">
+                          <!-- previous -->
+                          <div class="controls_prev"><img src='media/data/audio_icons/prev.png' width='30' height='30' alt='controls_prev'/></div>
+                          <!-- next -->
+                          <div class="controls_next"><img src='media/data/audio_icons/next.png' width='30' height='30' alt='controls_next'/></div>
+                          <!-- pause/play -->
+                          <div class="controls_toggle"><img src='media/data/audio_icons/play.png' width='30' height='30' alt='controls_toggle'/></div>
+                          
+                          <!-- volume -->
+                          <div class="player_volume"><img src='media/data/audio_icons/volume.png' width='30' height='30' alt='player_volume'/></div>
+                          <div class="volume_seekbar">
+                             <div class="volume_bg"></div>
+                             <div class="volume_level"></div>
+                          </div>
+    
+                      </div>
+                 
+                 </div>
+                 
+                 <!-- song name -->
+                 <div class="player_mediaName_Mask">
+                 	 <div class="player_mediaName">Artist Name - Artist Title</div>
+                 </div>
+                 
+              </div>
 
-        <div class="playerHolder">
+             <div id="playlist_list">
 
-            <div class="player_controls">
+                 <ul id='audio_playlist1'>
+                     <li class= "playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_A_Bright_And_Hopeful_Future.mp3" 		 data-oggPath="media/audio/1/Tim_McMorris_-_A_Bright_And_Hopeful_Future.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - A Bright And Hopeful Future</a></li>
+                     <li class= "playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_Be_My_Valentine.mp3" 					 data-oggPath="media/audio/1/Tim_McMorris_-_Be_My_Valentine.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - Be My Valentine</a></li>
+                     <li class= "playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_Give_Our_Dreams_Their_Wings_To_Fly.mp3"  data-oggPath="media/audio/1/Tim_McMorris_-_Give_Our_Dreams_Their_Wings_To_Fly.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - Give Our Dreams Their Wings To Fly</a></li>
+                 </ul>
 
-                <!-- previous -->
-                <div class="controls_prev"><img src='media/data/audio_icons/prev.png' width='30' height='30' alt='controls_prev'/>
-                </div>
-                <!-- next -->
-                <div class="controls_next"><img src='media/data/audio_icons/next.png' width='30' height='30' alt='controls_next'/>
-                </div>
-                <!-- pause/play -->
-                <div class="controls_toggle"><img src='media/data/audio_icons/play.png' width='30' height='30' alt='controls_toggle'/>
-                </div>
+             </div>
 
-                <!-- volume -->
-                <div class="player_volume"><img src='media/data/audio_icons/volume.png' width='30' height='30' alt='player_volume'/>
-                </div>
-                <div class="volume_seekbar">
-                    <div class="volume_bg"></div>
-                    <div class="volume_level"></div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- song name -->
-        <div class="player_mediaName_Mask">
-            <div class="player_mediaName">Artist Name - Artist Title</div>
-        </div>
-
-    </div>
-
-    <div id="playlist_list">
-
-        <ul id='audio_playlist1'>
-            <li class="playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_A_Bright_And_Hopeful_Future.mp3" data-oggPath="media/audio/1/Tim_McMorris_-_A_Bright_And_Hopeful_Future.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - A Bright And Hopeful Future</a></li>
-            <li class="playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_Be_My_Valentine.mp3" data-oggPath="media/audio/1/Tim_McMorris_-_Be_My_Valentine.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - Be My Valentine</a></li>
-            <li class="playlistItem" data-type='local' data-mp3Path="media/audio/1/Tim_McMorris_-_Give_Our_Dreams_Their_Wings_To_Fly.mp3" data-oggPath="media/audio/1/Tim_McMorris_-_Give_Our_Dreams_Their_Wings_To_Fly.ogg"><a class="playlistNonSelected" href='#'>Tim McMorris - Give Our Dreams Their Wings To Fly</a></li>
-        </ul>
-
-    </div>
-
-</div>
+         </div>
 <!--audio player end-->
 
 <!-- Begin JavaScript -->
@@ -783,7 +777,7 @@
 <script type="text/javascript" src="Scripts/player/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="Scripts/player/jquery.address.js"></script>
 <script type="text/javascript" src="Scripts/player/jquery.cj-swipe.js"></script>
-<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+<script type="text/javascript" src="Scripts/player/ytPlayer.js"></script>
 <script type="text/javascript" src="Scripts/player/jquery.apYoutubePlayer.min.js"></script>
 <script type="text/javascript" src="Scripts/player/jquery.apVimeoPlayer.min.js"></script>
 <script type="text/javascript" src="Scripts/player/jquery.func.js"></script>

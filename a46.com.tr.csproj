@@ -60,6 +60,9 @@
     <Content Include="gallery-masonry.html" />
     <Content Include="gallery-slideshow.html" />
     <Content Include="images\a46LogoBig.png" />
+    <Content Include="images\About\bg.png" />
+    <Content Include="images\About\bg_conn.png" />
+    <Content Include="images\About\_bg.png" />
     <Content Include="images\animated-overlay.gif" />
     <Content Include="images\arrow-left.png" />
     <Content Include="images\arrow-right.png" />
@@ -309,6 +312,7 @@
     <Content Include="Scripts\mCustomScrollbar.min.js" />
     <Content Include="Scripts\migrate-1.2.1.min.js" />
     <Content Include="Scripts\modernizr-respond.js" />
+    <Content Include="Scripts\player\jquery-1.10.2.min.js" />
     <Content Include="Scripts\player\jquery.address.js" />
     <Content Include="Scripts\player\jquery.apPlaylistManager.min.js" />
     <Content Include="Scripts\player\jquery.apTextScroller.min.js" />
@@ -322,6 +326,7 @@
     <Content Include="Scripts\player\jquery.videoGallery.min.js" />
     <Content Include="Scripts\player\player.js" />
     <Content Include="Scripts\player\soundmanager2-nodebug-jsmin.js" />
+    <Content Include="Scripts\player\ytPlayer.js" />
     <Content Include="Scripts\player\_froogaloop.js" />
     <Content Include="Scripts\queryloader2.min.js" />
     <Content Include="Scripts\scripts.js" />
