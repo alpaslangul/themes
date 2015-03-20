@@ -884,7 +884,7 @@ $(document).ready(function() {
         var win_h = $(window).height();
         $(".curtainLayer").css('height', win_h + 'px');
 
-//        header_resize();
+//      header_resize();
 //		gallery_s_resize();
 //		page_resize();
 //		map_init();
